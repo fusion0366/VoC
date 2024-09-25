@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager, rc
 
 # OpenAI API 키 설정
-openai.api_key = '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'
+openai.api_key = ''
 
 # 폰트 설정
 font_name = font_manager.FontProperties(fname='fonts\\NanumBarunGothic.ttf').get_name()
