@@ -14,7 +14,7 @@ def main_page():
                     <img alt="" loading="lazy" width="200" decoding="async" data-nimg="1" src="https://intense-ai.com/img/KMACVOC.png" style="color: transparent;">
                 </p>
                 ''', unsafe_allow_html=True)
-        menu = option_menu('홍길동 / ', ['프로젝트 관리', '결과 Upload', '분석 보고서(기본)', '분석 보고서(상세)'],
+        menu = option_menu('홍길동 / 공공리서치', ['프로젝트 관리', '결과 Upload', '분석 보고서(기본)', '분석 보고서(상세)'],
                            icons=['gear-wide-connected', 'bi bi-upload', 'bar-chart-line-fill', 'bi bi-robot'],
                            # menu_icon="/img/1320909.png", default_index=0,
                            menu_icon="bi bi-person-fill", default_index=0,
