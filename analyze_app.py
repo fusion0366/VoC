@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import re
-from kospellpy import spell_init
+# from kospellpy import spell_init
 from networkx.algorithms.bipartite import color
 from tqdm import tqdm
 import torch
