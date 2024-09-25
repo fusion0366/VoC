@@ -29,9 +29,9 @@ openai.api_key = ''
 # rc('font', family=font_name)
 
 # 한글 폰트 경로 설정
-font_path = './fonts/NanumBarunGothic.ttf'
+font_pt = './fonts/NanumBarunGothic.ttf'
 font_manager.fontManager.addfont('./fonts/NanumBarunGothic.ttf')
-font_name = font_manager.FontProperties(fname=font_path).get_name()
+font_name = font_manager.FontProperties(fname=font_pt).get_name()
 rc('font', family=font_name)
 
 # 데이터 타입 최적화 함수
@@ -367,7 +367,7 @@ def detail_page():
 
         alice_mask = np.array(Image.open('./img/cloud.png'))
         # font = 'C:\Windows\Fonts\gulim.ttc'  # 이 친구는 코랩과는 다르다 ㅋㅋㅋㅋ
-        wc = WordCloud(font_path=font_path, \
+        wc = WordCloud(font_path=font_pt, \
                        background_color="white", \
                        width=400, \
                        height=400, \
