@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import re
-from kospellpy import spell_init
+# from kospellpy import spell_init
 from tqdm import tqdm
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
@@ -30,7 +30,7 @@ openai.api_key = ''
 
 # 한글 폰트 경로 설정
 font_path = './fonts/NanumBarunGothic.ttf'
-fm.fontManager.addfont('./fonts/NanumBarunGothic.ttf')
+font_manager.fontManager.addfont('./fonts/NanumBarunGothic.ttf')
 font_name = font_manager.FontProperties(fname=font_path).get_name()
 rc('font', family=font_name)
 
