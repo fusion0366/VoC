@@ -21,9 +21,15 @@ from matplotlib import font_manager, rc
 openai.api_key = ''
 
 # 폰트 설정
-font_name = font_manager.FontProperties(fname='fonts\\NanumBarunGothic.ttf').get_name()
-rc('font', family=font_name)
+# fm.fontManager.addfont('./fonts/NanumBarunGothic.ttf')
+# font_name = font_manager.FontProperties(fname='fonts\\NanumBarunGothic.ttf').get_name()
+# rc('font', family=font_name)
 
+# 한글 폰트 경로 설정
+font_path = './fonts/NanumBarunGothic.ttf'
+fm.fontManager.addfont('./fonts/NanumBarunGothic.ttf')
+font_name = font_manager.FontProperties(fname=font_path).get_name()
+rc('font', family=font_name)
 
 # 데이터 타입 최적화 함수
 def optimize_dtypes(dataframe):
