@@ -20,7 +20,7 @@ def main_page():
                            menu_icon="bi bi-person-fill", default_index=0,
                            styles={
                                "container": {"padding": "5!important", "background-color": "#fafafa"},
-                               "icon": {"font-size": "22px"},
+                               "icon": {"font-size": "20px"},
                                "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px", "margin-top": "10px",
                                             "--hover-color": "#eee"},
                                "nav-link-selected": {"background-color": "#434B69", "icon-color": "#fafafa"}, })
