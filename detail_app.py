@@ -408,6 +408,7 @@ def detail_page():
 
         alice_mask = np.array(Image.open('./img/cloud.png'))
         # font = 'C:\Windows\Fonts\gulim.ttc'  # 이 친구는 코랩과는 다르다 ㅋㅋㅋㅋ
+        font = './fonts/NanumBarunGothic.ttf'
         wc = WordCloud(font_path=font, \
                        background_color="white", \
                        width=400, \
