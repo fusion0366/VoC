@@ -407,7 +407,7 @@ def detail_page():
         stWord0[1].pyplot(fig)
 
         alice_mask = np.array(Image.open('./img/cloud.png'))
-        font = 'C:\Windows\Fonts\gulim.ttc'  # 이 친구는 코랩과는 다르다 ㅋㅋㅋㅋ
+        # font = 'C:\Windows\Fonts\gulim.ttc'  # 이 친구는 코랩과는 다르다 ㅋㅋㅋㅋ
         wc = WordCloud(font_path=font, \
                        background_color="white", \
                        width=400, \
